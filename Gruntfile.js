@@ -166,6 +166,9 @@ module.exports = function(grunt) {
         'jsbeautifier'
     ]);
 
+    grunt.registerTask('test', [
+    ]);
+
     grunt.registerTask('serve', [
         'clean:server',
         'express:livereload',

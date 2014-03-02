@@ -20,12 +20,6 @@ The files can be downloaded from:
 * Minified [JS](https://github.com/l-lin/backtotop/dist/backtotop.min.js) and [CSS](https://github.com/l-lin/backtotop/dist/backtotop.min.css) for production usage
 * Un-minified [JS](https://github.com/l-lin/backtotop/dist/backtotop.js) and [CSS](https://github.com/l-lin/backtotop/dist/backtotop.css) for development
 
-### With BowerJS
-
-```bash
-$ bower install backtotop
-```
-
 Installation
 ----------------
 Include the JS and CSS file in your index.html file: 
@@ -39,7 +33,7 @@ Usage
 ================
 You must initialize the module by calling the <code>init</code> function of the module:
 
-```html
+```javascript
 backToTop.init({
 	theme: 'classic', // Available themes: 'classic', 'sky', 'slate'
 	animation: 'fade' // Available animations: 'fade', 'slide'
