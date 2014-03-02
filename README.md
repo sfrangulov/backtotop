@@ -39,7 +39,7 @@ Usage
 ================
 You must initialize the module by calling the <code>init</code> function of the module:
 
-```html
+```javascript
 backToTop.init({
 	theme: 'classic', // Available themes: 'classic', 'sky', 'slate'
 	animation: 'fade' // Available animations: 'fade', 'slide'
