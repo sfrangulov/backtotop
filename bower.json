@@ -3,9 +3,7 @@
 	"version": "0.0.1",
 	"author": "l-lin",
 	"main": [
-        "dist/backtotop.js",
         "dist/backtotop.min.js",
-        "dist/backtotop.css",
         "dist/backtotop.min.css"
     ],
     "ignore": [
